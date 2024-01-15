@@ -1,0 +1,123 @@
+{
+    "dataset": {
+        "wiki": {
+            "contributing": {
+                "input": {
+                    "patterns": [
+                        "how do i start contributing",
+                        "start editing to the wiki"
+                    ],
+
+                    "highlight": [ 
+                        "editing",
+                        "contributing"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["You can contribute by editing pages with the latest information (You'll need a password for it!) and add images or files via the repository. (You'll also both need a GitHub account and access to the repository.) If you can't access neither of them, you can instead contact @/Wiki Editors or @/Wiki Managers to help you!"]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
+            },
+
+            "passwords": {
+                "input": {
+                    "patterns": [
+                        "how do i get an editor password",
+                        "how do i get a password",
+                        "how do i get password"
+                    ],
+
+                    "highlight": [ 
+                        "editor",
+                        "password"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["You'll need to contact Nyx for your own password in order to publish your edits. Do note that it is on a trust basis, so you should also be pretty reputable after obtaining it!"]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
+            },
+
+            "fandom-possible-deprecation": {
+                "input": {
+                    "patterns": [
+                        "what may happen to the fandom wikis",
+                        "what will happen to the fandom wikis",
+                        "how do i get password",
+                        "omg what happened to the fandom wiki"
+                    ],
+
+                    "highlight": [ 
+                        "happen",
+                        "fandom",
+                        "old wikis",
+                        "wiki"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["As more pages get ported over time, the less we focus on the fandom version especially with the more newest additions, it is unforunate, but wiki.wolfdo.gg is a much better to use platform than fandom."]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
+            },
+
+            "upload-media": {
+                "input": {
+                    "patterns": [
+                        "add attatchments",
+                        "add images",
+                        "add files",
+                        "add gifs",
+                        "add audio"
+                    ],
+
+                    "highlight": [ 
+                        "how do i",
+                        "create"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["For now, you can add content/attatchments to the wiki by **Pull Requests**"],
+                            ["<end>", " ..if you even know what that is anyways.."]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
+            }
+        }
+    },
+
+    "response-handle": {
+        "no-response": [
+            [
+                ["Uhhh... ", "Um... ", "Hehe.. uhm... "],
+                ["babbert does not understand your question.", "i dont understand", "babbert no understand"]
+            ]
+        ]
+    }
+}
