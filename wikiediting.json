@@ -81,6 +81,35 @@
                 }
             },
 
+            "adding-custom-dialogue": {
+                "input": {
+                    "patterns": [
+                        "how do i add custom dialogue",
+                        "how do i make dialogue tips",
+                        "how do i make tips",
+                        "how do i edit tips"
+                    ],
+
+                    "highlight": [ 
+                        "tips",
+                        "dialogue tips",
+                        "lower right dialogue",
+                        "dialogue"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["**If you mean the Tips Dialogue / Dialogue in the Lower-Right Corner:** You can create custom dialogue for characters (or rarely, contributors like potentially yourself!) using the repository. You'll also need to create your own character first in order for it to be registered. Images and poses are also completely optional! | **If you mean the Dialogue Emulation:** You'll need access to the repository in order to edit or add custom emulations, we recommend following a template from an existing .json to give you into the ropes of how it works!"]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
+            },
+
             "upload-media": {
                 "input": {
                     "patterns": [
