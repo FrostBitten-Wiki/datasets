@@ -137,7 +137,180 @@
                     "corpus": [
                     ]
                 }
+            },
+
+            "bricked-up": {
+                "input": {
+                    "patterns": [
+                        "are you bricked up",
+                        "bricked up?"
+                    ],
+
+                    "highlight": [ 
+                        "bricked up",
+                        "brick up"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["Hehe.. uhm... what does that mean? And why do I feel like I shouldn't hear the answer?"]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
+            }, 
+
+            "fortnite": {
+                "input": {
+                    "patterns": [
+                        "do you play fortnite",
+                        "fortnite?"
+                    ],
+
+                    "highlight": [ 
+                        "fortnite",
+                        "fortnight"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["Babbert plays Fortnite! Although babbert keeps getting 101th place...."]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
+            }, 
+
+            "griddy": {
+                "input": {
+                    "patterns": [
+                        "are you hitting the griddy",
+                        "are you hitting the floss"
+                    ],
+
+                    "highlight": [ 
+                        "griddy",
+                        "floss"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["Babbert is doing it right now!"]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
+            },
+
+            "goon": {
+                "input": {
+                    "patterns": [
+                        "how to goon",
+                        "gooning?"
+                    ],
+
+                    "highlight": [ 
+                        "goon",
+                        "gooning"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["Babbert has no idea what that means, at all!"]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
+            }, 
+
+            "table": {
+                "input": {
+                    "patterns": [
+                        "how to add table",
+                        "table"
+                    ],
+
+                    "highlight": [ 
+                        "table"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["It's rather simple! The first line for your table should be the Headers, the ones that well; categorize the stuff and the second line is filled with Hyphens, to split the Headers and the Cells. Lastly, the third line and onwards will be your cells, and where you put the information in!"]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
+            },
+
+            "images": {
+                "input": {
+                    "patterns": [
+                        "how to add images",
+                        "images"
+                    ],
+
+                    "highlight": [ 
+                        "images"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["It depends if you have access to the repository or not, if you have access to VS Code's repository then you can drag and push your files into the GitHub repository, or you can Add Files within a folder in the GitHub repository. Otherwise, you may need to contact a Wiki Admin!"]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
+            },
+
+            "skibidi": {
+                "input": {
+                    "patterns": [
+                        "how to add skibidi",
+                        "skibidi"
+                    ],
+
+                    "highlight": [ 
+                        "skibidi"
+                    ]
+                },
+
+                "responses": {
+                    "nest": [
+                        [
+                            ["Babbert don't understand what 'skibidi' means....."]
+                        ]
+                    ],
+
+                    "corpus": [
+                    ]
+                }
             }
+
         }
     },
 
